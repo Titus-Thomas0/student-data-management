@@ -20,7 +20,7 @@ import com.titus.student_Data_Management.model.Student;
 import com.titus.student_Data_Management.repository.StudentRepository;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5174")
+@CrossOrigin(origins = "http://localhost:5173")
 @RequestMapping("/api/students")
 public class StudentController {
 	@Autowired

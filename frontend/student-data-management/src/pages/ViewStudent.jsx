@@ -34,6 +34,7 @@ function ViewStudent() {
           <thead>
             <tr>
               <th>SNo</th>
+              <th>Roll Number</th>
               <th>Student Name</th>
               <th>Age</th>
               <th>Email</th>
@@ -50,6 +51,7 @@ function ViewStudent() {
               students.map((student, index) => (
                 <tr key={student.rollNo}>
                   <td>{index + 1}</td>
+                  <td>{student.rollNo}</td>
                   <td>{student.studentName}</td>
                   <td>{student.age}</td>
                   <td>{student.email}</td>
